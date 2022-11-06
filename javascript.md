@@ -9,6 +9,6 @@
 5. **Null** - for unknown values – a standalone type that has a single value null. Empty value. 
 6. **Undefined** - for unassigned values – a standalone type that has a single value undefined. Value is not assigned. 
 7. **Symbol** - for unique identifiers.
-8. **oOject** - complex data structures.
+8. **Object** - complex data structures.
 
 To define data type `typeof x`, but `typeof null -> object`, it's language mistake. 
