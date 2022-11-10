@@ -12,3 +12,10 @@
 8. **Object** - complex data structures.
 
 To define data type `typeof x`, but `typeof null -> object`, it's language mistake. 
+
+#### Javascript features:
+* **dynamic typesation** - allow to redefine variable and change it type. Variable connected to the value by assigning, but by defining. 
+* **weak typing** - in case of type conversion.
+* **automation memory management** - controlled by garbage collector. Variables and objects are deleted when they aren't reachable. 
+* **prototype programming** - Thus inheritance in JavaScript is covered by a delegation automatism that is bound to the prototype property of constructor functions.
+* **functions is a first-class citizen** - functions could be used as variables and could be passed and returned on another functions. 
