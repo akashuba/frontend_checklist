@@ -19,3 +19,7 @@ To define data type `typeof x`, but `typeof null -> object`, it's language mista
 * **automation memory management** - controlled by garbage collector. Variables and objects are deleted when they aren't reachable. 
 * **prototype programming** - Thus inheritance in JavaScript is covered by a delegation automatism that is bound to the prototype property of constructor functions.
 * **functions is a first-class citizen** - functions could be used as variables and could be passed and returned on another functions. 
+
+#### Closures
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.  
+After variable request, function check it inside, then go to outer scope through lexical environment, until it reaches global scope. 
