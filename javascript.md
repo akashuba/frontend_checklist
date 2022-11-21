@@ -23,3 +23,20 @@ To define data type `typeof x`, but `typeof null -> object`, it's language mista
 #### Closures
 A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.  
 After variable request, function check it inside, then go to outer scope through lexical environment, until it reaches global scope. 
+
+#### Event loop, micro and macro tasks:
+Event loop - endless loop of js engine, which execute tasks in queue order, put older task in stack, after this engine waiting for new tasks. 
+Macro tasks - scripts, Timeout, mousemove.  
+Micro tasks - microtasks come solely from our code. They are usually created by promises: an execution of .then/catch/finally
+Micro tasks event loop embedded in macro tasks loop, after every macro task executes all micro tasks from it own loop. 
+```javascript
+setTimeout(() => alert("timeout"));
+
+Promise.resolve()
+  .then(() => alert("promise"));
+
+alert("code");
+// code
+// promise
+// timeout
+```
