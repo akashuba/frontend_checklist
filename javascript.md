@@ -25,9 +25,9 @@ A closure is the combination of a function bundled together (enclosed) with refe
 After variable request, function check it inside, then go to outer scope through lexical environment, until it reaches global scope. 
 
 #### Event loop, micro and macro tasks:
-Event loop - endless loop of js engine, which execute tasks in queue order, put older task in stack, after this engine waiting for new tasks. 
-Macro tasks - scripts, Timeout, mousemove.  
-Micro tasks - microtasks come solely from our code. They are usually created by promises: an execution of .then/catch/finally
+**Event loop** - endless loop of js engine, which execute tasks in queue order, put older task in stack, after this engine waiting for new tasks. 
+**Macro tasks** - scripts, Timeout, mousemove.  
+**Micro tasks** - microtasks come solely from our code. They are usually created by promises: an execution of **.then/catch/finally**
 Micro tasks event loop embedded in macro tasks loop, after every macro task executes all micro tasks from it own loop. 
 ```javascript
 setTimeout(() => alert("timeout"));
