@@ -40,5 +40,7 @@ alert("code");
 // promise
 // timeout
 ```
-[learn js - event loop](https://javascript.info/event-loop#event-loop).  
+
+<img src="https://github.com/akashuba/frontend_checklist/blob/main/img/event-loop.png" alt="drawing" width="400"/>.   
+Image from [javascript.info](https://javascript.info/event-loop#event-loop).  
 [MDN - event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
