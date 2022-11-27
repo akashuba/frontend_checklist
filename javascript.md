@@ -44,3 +44,8 @@ alert("code");
 <img src="https://github.com/akashuba/frontend_checklist/blob/main/img/event-loop.png" alt="drawing" width="400"/>.   
 Image from [javascript.info](https://javascript.info/event-loop#event-loop).  
 [MDN - event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+
+#### Prototype
+In JavaScript, objects have a special hidden property Prototype, that is either null or references another object.  
+That object is called “a prototype”.   When we read a property from object, and it’s missing, JavaScript automatically takes it from the prototype (prototypal inheritance). Every function has the "prototype" property even if we don’t supply it.
+The default "prototype" is an object with the only property constructor that points back to the function itself.
