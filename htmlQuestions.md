@@ -6,5 +6,12 @@
 * **What kind of things must you be wary of when designing or developing for multilingual sites?**   
   The same answer as above. 
 * **What are data- attributes good for?**  
-    Data attributes helps with add some extra information to elements, and them interact with them in js.
-    Could be used by frameworks and test libs. 
+  Data attributes helps with add some extra information to elements, and them interact with them in js.
+  Could be used by frameworks and test libs. 
+* **Describe the difference between <script>, <script async> and <script defer>.**   
+   <script> loaded synchronously and block page parsing until the script will be downloaded and executed.    
+   <script async> didn't stop html parsing but it does during js execution.   
+   <script defer> didn't stop html parsing and execution after html parsing finished, and it also saved the scripts queue.      
+* **Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?**   
+  
+  <script defer> could be placed on top of document. 
