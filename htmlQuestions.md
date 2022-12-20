@@ -12,6 +12,12 @@
     * <script> loaded synchronously and block page parsing until the script will be downloaded and executed.    
     * <script async> didn't stop html parsing but it does during js execution.   
     * <script defer> didn't stop html parsing and execution after html parsing finished, and it also saved the scripts queue.      
-* **Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?**   
-  
+* **Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?**.  
+
   <script defer> could be placed on top of document. 
+* **What is progressive rendering?**   
+    Progressive rendering is the name given to techniques used to render content for display as quickly as possible.
+    General idea is sending data by chunks, prioritize visible part of interface. Using SSR, lazy load. 
+* **Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.**   
+    One or more strings separated by commas, indicating possible image sources for the user agent to use. It use screen size
+    
