@@ -19,5 +19,11 @@
     Progressive rendering is the name given to techniques used to render content for display as quickly as possible.
     General idea is sending data by chunks, prioritize visible part of interface. Using SSR, lazy load. 
 * **Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.**   
-    One or more strings separated by commas, indicating possible image sources for the user agent to use. It use screen size
-    
+    One or more strings separated by commas, indicating possible image sources for the user agent to use. It use screen size.   
+* **Have you used different HTML templating languages before?**   
+    I used handlebars. 
+* **What is the difference between canvas and svg?**    
+    Svg is SVG base vector image. Using for scalable and simple images.   
+    Canvas provide powerful API for drawing with JavaScript in browser. Using for dynamical drawing, animation, games.
+* **What are empty elements in HTML ?**   
+    Elements with no children's and self close tag, for example: `<br>`, `<hr>`, `<img>`, `<input>`, `<meta>`,
