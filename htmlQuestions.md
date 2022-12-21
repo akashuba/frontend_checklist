@@ -1,3 +1,5 @@
+Questions about [html](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/main/src/questions/html-questions.md)
+
 * **What does a doctype do?**   
   Doctype is required tag it helps browser to understand what kind of document opened. It could be HTML 5, HTML 4.01, XHTML
 * **How do you serve a page with content in multiple languages?**  
